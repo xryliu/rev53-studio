@@ -1,1 +1,5 @@
+# Copyright (c) 2023 The ZMK Contributors
+# SPDX-License-Identifier: MIT
 
+config SHIELD_REVIUNG53_STUDIO
+    def_bool $(shields_list_contains,reviung53_studio)
