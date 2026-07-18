@@ -1,0 +1,7 @@
+# Build matrix for GitHub Actions.
+# The studio-rpc-usb-uart snippet exposes the channel ZMK Studio talks over.
+---
+include:
+  - board: nice_nano_v2
+    shield: reviung53
+    snippet: studio-rpc-usb-uart
